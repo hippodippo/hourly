@@ -1,0 +1,53 @@
+.Form__hours, .Form__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 750px;
+    margin: 23px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 3px #cdd8df;
+}
+
+.Form__items__item {
+  max-width: 200px;
+  padding: 7px;
+  background-color: #4257b2;
+  border-radius: 3px;
+  margin: 7px auto;
+}
+
+.Form input {
+    max-width: 175px;
+    margin: 7px auto;
+    padding: 3px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    background-color: #f8fafc;
+}
+
+.Form button {
+  margin-left: 60px;
+  border-radius: .3em;
+  margin-bottom: .8em;
+  padding: .6em 1.3em;
+  position: relative;
+  text-decoration: none;
+  border: 0;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #61BD4F), to(#5AAC44));
+  background: linear-gradient(to bottom, #61BD4F 0, #5AAC44 100%);
+  box-shadow: 0 2px 0 #3F6F21;
+  color: #fff;
+  font-weight: bold;
+}
+
+@media (min-width: 850px) {
+  .Form {
+    flex-direction: row;
+  }
+
+  .Form input {
+    margin: 7px;
+  }
+}

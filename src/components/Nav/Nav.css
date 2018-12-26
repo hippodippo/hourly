@@ -1,0 +1,23 @@
+.Nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 2px 3px #cdd8df;
+}
+
+.Nav__logo, .Nav__links__link {
+  font-weight: 700;
+  margin: 23px;
+  color: #455358;
+}
+
+.Nav__links {
+  display: flex;
+}

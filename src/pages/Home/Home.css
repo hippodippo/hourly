@@ -1,0 +1,31 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home h1 {
+  color: #4257b2;
+}
+
+.Home__NewItemBtn {
+  background: #CDD2D4;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #CDD2D4), to(#C4C9CC));
+  background: linear-gradient(to bottom, #CDD2D4 0, #C4C9CC 100%);
+  border-radius: .3em;
+  box-shadow: 0 2px 0 #4d4d4d;
+  color: #4d4d4d;
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: .8em;
+  padding: .6em 1.3em;
+  position: relative;
+  text-decoration: none;
+  border: 0;
+}
+/* #455358 */
+
+/* background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #61BD4F), to(#5AAC44)); */
+/* background: linear-gradient(to bottom, #61BD4F 0, #5AAC44 100%); */
+/* box-shadow: 0 2px 0 #3F6F21; */
